@@ -37,7 +37,7 @@ public class CommandController {
         Command command;
 
         if (commandMap.get(input) == null) {
-            System.out.println("Command not found: " + input);
+            System.out.println("Command not found: " + input + "\n");
             return;
         }
 
